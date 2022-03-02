@@ -1,0 +1,24 @@
+Esp32 Internet Alarm Clock with temperature and hummidity reading.
+Using Esp32 microcontroller as the heart of this project along with 
+DHT22 as temperature and hummidity sensor.
+
+This is smart internet alarm clock connecting to the internet 
+using ntp servers for synchronizing the date and time.
+You can set the Alarm by setting the "start" and "end" day
+and the time for the alarm to go "ON". If the alarm is set, and 
+the power goes out, when power is restored the clock will self adjust
+date and time and restore any alarm settings that was previously set!
+
+Using 2 OLED 64x128 dots, one for date and time and the other 
+for temperature and hummidity readings using the DHT22 sensor.
+Display current, MIN and MAX readings.
+  
+DHT22 Specifications
+    Operating Voltage: 3.5V to 5.5V.
+    Operating current: 0.3mA (measuring) 60uA (standby)
+    Output: Serial data.
+    Temperature Range: -40°C to 80°C.
+    Humidity Range: 0% to 100%
+    Resolution: Temperature and Humidity both are 16-bit.
+    Accuracy: ±0.5°C and ±1%
+enjoy!

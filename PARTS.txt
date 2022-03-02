@@ -1,0 +1,9 @@
+Any ESP32 vroom32 microcontroller (need to check connections since every variety has different pins) 
+3xPush Buttons
+1xActive Buzzer 5v
+1xDHT22 remperature hummidity sensor
+1xResitor 10k 1/4w
+1xResistor 1k 1/4w
+1xTransistor BC547
+1xDiote 1N5399 or 1A over 50v will do the job
+2x4pin headers 
